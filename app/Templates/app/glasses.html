@@ -1,0 +1,130 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block glasses_content %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.1-dist/css/bootstrap.min.css"
+    /> -->
+    <link href="{%static 'app/css/skin.css'%}" rel="stylesheet"/>
+    <link href="{%static 'app/css/img.css'%}" rel="stylesheet"/> 
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="wp-products">
+            <h2 class="text-center">Our Products</h2>
+            <ul id="list-products">
+                <div class="item">
+                    <a href="">
+                        <img src="{% static 'images/trongkinh1.jpg'%}" alt="">
+                        <div class="info">
+                            Coach fashion brand is famous for its luxurious and neoclassical accessories
+                            bold American culture.
+                        </div>
+                    </a>
+                    <div class="name">Glasses 1</div>
+                    
+                    <div class="price">$10</div>
+                </div>
+
+
+                <div class="item">
+                    <a href="">
+                        <img src="{% static 'images/trongkinh2.jpg'%}" alt="">
+                        <div class="info">
+                            Coach fashion brand is famous for its luxurious and neoclassical accessories
+                            bold American culture.
+                        </div>
+                    </a>
+                    <div class="name">Glasses 2</div>
+                    <div class="price">$20</div>
+                </div>
+
+
+                <div class="item">
+                    <a href="">
+                        <img src="{% static 'images/trongkinh3.jpg'%}" alt="">
+                        <div class="info">
+                            Coach fashion brand is famous for its luxurious and neoclassical accessories
+                            bold American culture.
+                        </div>
+                    </a>
+                    <div class="name">Glasses 3</div>
+                    <div class="price">$30</div>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="{% static 'images/trongkinh4.jpg'%}" alt="">
+                        <div class="info">
+                            Coach fashion brand is famous for its luxurious and neoclassical accessories
+                            bold American culture.
+                        </div>
+                    </a>
+                    <div class="name">Glasses 4</div>
+                    <div class="price">$35</div>
+                </div>
+
+                <div class="item">
+                    <a href="">
+                        <img src="{% static 'images/trongkinh5.jpg'%}" alt="">
+                        <div class="info">
+                            Coach fashion brand is famous for its luxurious and neoclassical accessories
+                            bold American culture.
+                        </div>
+                    </a>
+                    <div class="name">Glasses 5</div>
+                    <div class="price">$18</div>
+                </div>
+
+                <div class="item">
+                    <a href="">
+                        <img src="{% static 'images/trongkinh6.jpg'%}" alt="">
+                        <div class="info">
+                            Coach fashion brand is famous for its luxurious and neoclassical accessories
+                            bold American culture.
+                        </div>
+                    </a>
+                    <div class="name">Glasses 6</div>
+                    <div class="price">$40</div>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="{% static 'images/trongkinh7.jpg'%}" alt="">
+                        <div class="info">
+                            Coach fashion brand is famous for its luxurious and neoclassical accessories
+                            bold American culture.
+                        </div>
+                    </a>
+                    <div class="name">Glasses 7</div>
+                    <div class="price">$50</div>
+                </div>
+            </ul>
+            <div class="list-page">
+                <div class="item">
+                    <a href="">1</a>
+                </div>
+                <div class="item">
+                    <a href="">2</a>
+                </div>
+                <div class="item">
+                    <a href="">3</a>
+                </div>
+                <div class="item">
+                    <a href="">4</a>
+                </div>
+            </div>
+        </div>
+        <!-- <script src="./bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap-5.2.1-dist/js/bootstrap.min.js"></script> -->
+</body>
+
+
+</html>
+{% endblock glasses_content %}
